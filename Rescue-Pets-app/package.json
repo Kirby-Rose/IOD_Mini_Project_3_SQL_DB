@@ -1,0 +1,32 @@
+{
+  "name": "rescue-pets-app",
+  "version": "1.0.0",
+  "description": "Database for storing pets for rehoming",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirby-Rose/IOD_Mini_Project_3_SQL_DB.git"
+  },
+  "keywords": [
+    "Rescue",
+    "Cat",
+    "Dog."
+  ],
+  "author": "Kirby Marks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kirby-Rose/IOD_Mini_Project_3_SQL_DB/issues"
+  },
+  "homepage": "https://github.com/Kirby-Rose/IOD_Mini_Project_3_SQL_DB#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  }
+}
